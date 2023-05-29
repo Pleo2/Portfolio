@@ -17,9 +17,6 @@ export default function useVideoPlayer({videoRef}) {
     }, [play, setPlay])
 
     return {
-        video,
-        setvideo,
-        play,
         setPlay,
     }
 }

@@ -11,7 +11,7 @@ export default function SectionCvDesktop() {
                 initial={{opacity: 0}}
                 animate={{opacity: 1}}
                 transition={{duration: 1, delay: 1.3}}
-                className='absolute top-0 left-24 md:top-12 md:left-[22rem] lg:flex lg:m-auto lg:justify-center lg:gap-4 lg:mt-52 xl:left-1/2 xl:-translate-x-1/2 xl:item-center'
+                className='absolute top-0 left-24 md:top-12 md:left-[22rem] lg:flex lg:m-auto lg:justify-center lg:gap-4 lg:mt-[23rem] xl:left-1/2 xl:-translate-x-1/2 xl:item-center'
             >
                 <DownloadCv />
                 <a className='hidden sm:hidden md:hidden lg:flex lg:items-center w-40px h-40px' href='https://github.com/Pleo2'>

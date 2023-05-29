@@ -16,7 +16,7 @@ import style from './animation-slider.module.css'
 export default function Slider() {
     return (
         <div
-            className={`${style.slider} relative m-auto mt-24 h-[50px] w-[350px] flex items-center justify-start overflow-hidden rounded-md md:w-[600px] md:mt-44 lg:w-[768px] lg:mt-44`}
+            className={`${style.slider} relative m-auto mt-24 h-[50px] w-[350px] flex items-center justify-start overflow-hidden rounded-md md:w-[600px] md:mt-44 lg:w-[525px] lg:mt-44`}
         >
             <div
                 className={`${style.slideTrack} flex w-[1000px] relative gap-[30px]`}

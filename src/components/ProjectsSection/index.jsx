@@ -1,4 +1,5 @@
 'use client'
+import { useRef} from 'react'
 import {motion} from 'framer-motion'
 import Title from '../Title'
 import Card from '../Card'
@@ -7,12 +8,11 @@ import Reactlogo from '../Logos/Reactlogo'
 import Jslogo from '../Logos/Jslogo'
 import TestingLibrarylogo from '../Logos/TestingLibrarylogo'
 import Csslogo from '../Logos/Csslogo'
-import {useEffect, useRef, useState} from 'react'
 import useVideoPlayer from './useVideoPlayer'
 
 export default function ProjectsSection({projects}) {
     const videoRef = useRef(null)
-    const {setvideo, setPlay} = useVideoPlayer({videoRef})
+    const {setPlay} = useVideoPlayer({videoRef})
 
     return (
         <>
@@ -33,7 +33,7 @@ export default function ProjectsSection({projects}) {
                                 ref={videoRef}
                                 muted
                                 id='giphyVideo'
-                                className='w-full h-full rounded-xl object-fill giphyVideo'
+                                className='opacity-50 w-full h-full rounded-xl object-fill giphyVideo hover:opacity-100 hover:scale-105 transition-transform duration-500'
                             >
                                 <source src='/giphy.mp4' />
                             </video>

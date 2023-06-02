@@ -23,7 +23,7 @@ export default function ProjectsSection({projects}) {
                 className='lg:mt-20'
             >
                 <Title section={'Projects'} />
-                <div className='lg:grid lg:grid-cols-2  lg:grid-rows-2 lg:item-center lg:h-max lg:w-full lg:m-auto lg:gap-8 lg:mt-8'>
+                <div className='lg:grid lg:grid-cols-2  lg:item-center lg:h-max lg:w-full lg:m-auto lg:gap-8 lg:mt-8'>
                     <Card key={projects[0].description}>
                         <Articulo project={projects[0]} />
                         <div className='hidden sm:hidden md:hidden lg:flex lg:bg-black lg:h-48 lg:w-[21rem] lg:ml-8 lg:mb-8 lg:rounded-xl lg:cursor-pointer lg:hover:bg-zinc-700 z-40'>
@@ -38,7 +38,7 @@ export default function ProjectsSection({projects}) {
                                 <source src='/giphy.mp4' />
                             </video>
                         </div>
-                        <div className='hidden sm:hidden md:hidden lg:flex gap-4 [&>svg]:w-10 [&>svg]:fill-zinc-400 mb-8 justify-start pl-8'>
+                        <div className='hidden sm:hidden md:hidden lg:flex gap-4 [&>svg]:w-10 [&>svg]:fill-zinc-400 mb-8 mt-12 justify-start pl-8'>
                             <Reactlogo />
                             <Jslogo />
                             <TestingLibrarylogo />

@@ -17,10 +17,10 @@ export default function Home() {
         <>
             <main className={`flex h-max flex-col overflow-x-hidden`}>
                 <Slider />
-                <section className='flex flex-col justify-center w-[345px] m-auto md:w-[600px] lg:w-[900px]'>
-                    <SectionCvDesktop/>
+                <section className='flex flex-col justify-center w-[310px] m-auto md:w-[600px] lg:w-[900px]'>
+                    <SectionCvDesktop />
                     <AboutMeSection />
-                    <AbouteMeDesktop/>
+                    <AbouteMeDesktop />
                     <LinkSocialIcons />
                     <ProjectsSection projects={projects} />
                     <SkillsSection skills={skills} />

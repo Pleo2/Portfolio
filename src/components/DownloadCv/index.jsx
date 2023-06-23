@@ -8,7 +8,7 @@ export default function DownloadCv() {
                 <Card>
                     <div className='w-full flex mt-1 justify-center items-center'>
                         <Link
-                            href='/Jose_Moreno-CV.pdf'
+                            href='/Jose_Moreno--Frontend-dev(Desarrollador web).pdf'
                             target='_blank'
                             className='font-display text-xl text-zinc-200 px-4 hover:text-white duration-500 md:text-2xl'
                         >

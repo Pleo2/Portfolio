@@ -10,7 +10,7 @@ export default function SectionCvDesktop() {
             <motion.div
                 initial={{opacity: 0}}
                 animate={{opacity: 1}}
-                transition={{duration: 1, delay: 1.3}}
+                transition={{duration: 0.3 }}
                 className='absolute top-0 left-24 md:top-12 md:left-[22rem] lg:flex lg:m-auto lg:justify-center lg:gap-8 lg:mt-[23rem] xl:left-1/2 xl:-translate-x-1/2 xl:item-center'
             >
                 <DownloadCv />

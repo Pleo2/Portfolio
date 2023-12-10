@@ -22,12 +22,7 @@ export default function RootLayout({children}) {
                 <link rel='icon' href='/icon.svg' />
             </head>
             <body>
-                <Header />
-                <Particles
-                    className='absolute inset-0 -z-10 animate-fade-in '
-                    quantity={80}
-                />
-                
+                <Header />                
                 {children}
             </body>
         </html>

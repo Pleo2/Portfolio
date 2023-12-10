@@ -8,11 +8,11 @@ export default function ContactMeSection({children}) {
             <motion.div
                 initial={{opacity: 0}}
                 animate={{opacity: 1}}
-                transition={{duration: 1, delay: 1.6}} // 2.2 delay
+                transition={{duration: 0.3}} // 2.2 delay
             >
                 <Title section='Contact Me' />
                 <div className='mt-4'>
-                    <div className='border-[1px] w-max gap-12 m-auto border-zinc-800 p-4 rounded-full flex justify-around mb-4'>
+                    <div className='w-max gap-12 m-auto border-zinc-800 p-4 rounded-full flex mb-4'>
                         {children}
                     </div>
                 </div>

@@ -24,7 +24,7 @@ export default function Home() {
                     <LinkSocialIcons />
                     <ProjectsSection projects={projects} />
                     <SkillsSection skills={skills} />
-                    <SoftSkillsSection softSkills={softSkills} />
+                    {/* <SoftSkillsSection softSkills={softSkills} /> */}
                     <ContactMeSection>
                         <IconContact />
                     </ContactMeSection>

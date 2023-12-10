@@ -31,17 +31,12 @@
 @keyframes scroll {
   0% {
     opacity: 0;
-  }
-  
-  3% {
-    opacity: 0;
-  }
-  
-  4% {
-    opacity: 1;
     transform: translateX(0); 
   }
 
+  4% {
+    opacity: 1;
+  }
   100% {
     transform: translateX(calc(((-30px * 13)*2)*2))
   }

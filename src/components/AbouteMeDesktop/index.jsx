@@ -7,7 +7,7 @@ export default function AbouteMeDesktop() {
         <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
-            transition={{duration: 1, delay: 1.3}}
+            transition={{duration: 0.3}}
         >
             <p className='hidden lg:flex lg:mt-8 lg:text-zinc-400 lg:font-sans lg:text-xl lg:leading-loose'>
                 +2 years preparing myself in the area of Computer science in

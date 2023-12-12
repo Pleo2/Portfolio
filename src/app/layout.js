@@ -3,7 +3,7 @@ import Header from '../components/Header/'
 // import Particles from '@/components/Particles'
 import {Inter} from 'next/font/google'
 import localFont from 'next/font/local'
-import { SpeedInsights } from '@vercel/speed-insights/*'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const inter = Inter({subsets: ['latin'], variable: '--font-inter'})
 const calSans = localFont({

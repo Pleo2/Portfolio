@@ -1,8 +1,9 @@
 import './globals.css'
 import Header from '../components/Header/'
-import Particles from '@/components/Particles'
+// import Particles from '@/components/Particles'
 import {Inter} from 'next/font/google'
 import localFont from 'next/font/local'
+import { SpeedInsights } from '@vercel/speed-insights/*'
 
 const inter = Inter({subsets: ['latin'], variable: '--font-inter'})
 const calSans = localFont({
@@ -24,6 +25,7 @@ export default function RootLayout({children}) {
             <body>
                 <Header />                
                 {children}
+                <SpeedInsights/>
             </body>
         </html>
     )

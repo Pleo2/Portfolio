@@ -3,6 +3,9 @@
   width: calc((30px * 13) + (30px * 13));
 }
 
+.slideTrack>div>svg{
+ fill: #e5e7eb; 
+}
 .slider .slide {
   height: 30px;
   width: 30px;

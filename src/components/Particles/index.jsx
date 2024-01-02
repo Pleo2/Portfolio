@@ -3,8 +3,8 @@ import React, {useRef, useEffect} from 'react'
 import useMousePosition from '@/utils/mouse'
 
 export default function Particles({
-  className = '',
-  quantity = 30,
+  className = 'absolute h-full w-full z-0',
+  quantity = 100,
   staticity = 50,
   ease = 50,
   refresh = false,
@@ -102,7 +102,7 @@ export default function Particles({
       context.current.translate(translateX, translateY)
       context.current.beginPath()
       context.current.arc(x, y, size, 0, 2 * Math.PI)
-      context.current.fillStyle = `rgba(100, 100, 100, ${alpha})`
+      context.current.fillStyle = `rgba(255, 141, 0, ${alpha})`
       context.current.fill()
       context.current.setTransform(dpr, 0, 0, dpr, 0, 0)
 

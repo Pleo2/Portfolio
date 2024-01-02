@@ -17,7 +17,7 @@ export default function ProjectsSection({projects}) {
                 <Title section={'Projects'} />
                 <div className='lg:grid lg:grid-cols-2 lg:item-center lg:h-max lg:w-full lg:m-auto lg:gap-8 lg:mt-8'>
                     { projects.map((project, index) => 
-                        <Card key={project[index]} >
+                        <Card  key={index} >
                             <Articulo project={project}></Articulo>
                         </Card>
                     )}

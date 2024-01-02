@@ -3,9 +3,8 @@ import Header from '../components/Header/'
 // import Particles from '@/components/Particles'
 import {Inter} from 'next/font/google'
 import localFont from 'next/font/local'
-import { SpeedInsights } from '@vercel/speed-insights/next'
-
-const inter = Inter({subsets: ['latin'], variable: '--font-inter'})
+import {SpeedInsights} from '@vercel/speed-insights/next'
+const inter = Inter({subsets: ['latin']})
 const calSans = localFont({
     src: '../../public/CalSans-SemiBold.woff2',
     variable: '--font-calSans',
@@ -23,9 +22,9 @@ export default function RootLayout({children}) {
                 <link rel='icon' href='/icon.svg' />
             </head>
             <body>
-                <Header />                
-                {children}
-                <SpeedInsights/>
+                    <Header />
+                    {children}
+                    <SpeedInsights />
             </body>
         </html>
     )

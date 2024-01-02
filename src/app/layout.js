@@ -4,7 +4,7 @@ import Header from '../components/Header/'
 import {Inter} from 'next/font/google'
 import localFont from 'next/font/local'
 import {SpeedInsights} from '@vercel/speed-insights/next'
-const inter = Inter({subsets: ['latin']})
+const inter = Inter({subsets: ['latin'], weight: ['400'], variable: '--font-inter'})
 const calSans = localFont({
     src: '../../public/CalSans-SemiBold.woff2',
     variable: '--font-calSans',

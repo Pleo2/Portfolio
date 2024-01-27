@@ -2,6 +2,10 @@
 import React, {useRef, useEffect} from 'react'
 import useMousePosition from '@/utils/mouse'
 
+const CIRCLESIZE = 1.4
+// this color is format is "rgba(0, 0, 0, " because the tranparency is dynamic
+const CIRCLECOLOR = 'rgba(210, 110, 110,'
+
 export default function Particles({
   className = 'absolute h-full w-full z-0',
   quantity = 100,
@@ -76,7 +80,7 @@ export default function Particles({
     const y = Math.floor(Math.random() * canvasSize.current.h)
     const translateX = 0
     const translateY = 0
-    const size = Math.floor(Math.random() * 2) + 0.1
+    const size = Math.floor(Math.random() * 2) + CIRCLESIZE 
     const alpha = 0
     const targetAlpha = parseFloat((Math.random() * 0.6 + 0.1).toFixed(1))
     const dx = (Math.random() - 0.5) * 0.2
@@ -102,7 +106,7 @@ export default function Particles({
       context.current.translate(translateX, translateY)
       context.current.beginPath()
       context.current.arc(x, y, size, 0, 2 * Math.PI)
-      context.current.fillStyle = `rgba(255, 141, 0, ${alpha})`
+      context.current.fillStyle = `${CIRCLECOLOR} ${alpha})`
       context.current.fill()
       context.current.setTransform(dpr, 0, 0, dpr, 0, 0)
 

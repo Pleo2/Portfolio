@@ -1,5 +1,5 @@
 import './globals.css'
-import Header from '../components/Header/'
+import Header from '@/components/Header/Header'
 import {Inter} from 'next/font/google'
 import localFont from 'next/font/local'
 import {SpeedInsights} from '@vercel/speed-insights/next'

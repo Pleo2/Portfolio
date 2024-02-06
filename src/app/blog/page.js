@@ -1,7 +1,9 @@
-export default function page() {
+import MainSection from "./components/MainSection";
+
+export default function Blog() {
   return (
-    <div>
-       blog      
-    </div>
+   <>
+    <MainSection></MainSection>
+   </> 
   )
 }

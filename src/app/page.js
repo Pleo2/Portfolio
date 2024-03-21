@@ -1,4 +1,3 @@
-import Slider from '@/components/Slider'
 import AboutMeSection from '@/components/AboutMeSection'
 import ProjectsSection from '@/components/ProjectsSection'
 import SkillsSection from '@/components/SkillsSection'

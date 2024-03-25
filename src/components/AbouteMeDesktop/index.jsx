@@ -10,7 +10,7 @@ export default function AbouteMeDesktop() {
             transition={{duration: 0.3}}
         >
             <p className='hidden lg:flex lg:mt-8 lg:text-zinc-400 lg:font-sans lg:text-xl lg:leading-loose'>
-                + 2 años transformando ideas en soluciones digitales, desarrollador de software con un profundo entusiasmo por el mundo de la informática. Mi experiencia abarca el desarrollo web full-stack en React, Node.js, Spring Boot , creando aplicaciones web de alta calidad, diseño y rendimiento. Además, domino Flutter para el desarrollo mobile, permitiéndo me llevar tus ideas a la palma de la mano.
+                + 2 years transforming ideas into digital solutions, software developer with a deep enthusiasm for the IT world. My experience covers full-stack web development in React, Node.js, Spring Boot, creating high quality web applications, design and performance. In addition, I am fluent in Flutter for mobile development, allowing me to bring your ideas to the palm of your hand.
             </p>
         </motion.div>
     )

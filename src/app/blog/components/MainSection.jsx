@@ -12,7 +12,6 @@ export default function MainSection() {
             >
                 <Title section={'Read My Blog'} />
                     <div className='lg:grid lg:grid-cols-2 lg:item-center lg:h-max lg:w-full lg:m-auto lg:gap-8 lg:mt-8'>
-              
                     </div>
             </motion.div>
         </>

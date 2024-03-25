@@ -7,7 +7,7 @@ const CIRCLESIZE = 1.4
 const CIRCLECOLOR = 'rgba(210, 110, 110,'
 
 export default function Particles({
-  className = 'absolute h-[120vh] mt-12 w-full z-0',
+  className = 'absolute h-[120vh] mt-16 w-full z-0',
   quantity = 100,
   staticity = 50,
   ease = 50,

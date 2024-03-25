@@ -10,10 +10,7 @@ export default function AbouteMeDesktop() {
             transition={{duration: 0.3}}
         >
             <p className='hidden lg:flex lg:mt-8 lg:text-zinc-400 lg:font-sans lg:text-xl lg:leading-loose'>
-                +2 years preparing myself in the area of Computer science in
-                specific web development (front-end) especially with libraries
-                like React, and css frameworks (tailwind, sass) in operating
-                systems like linux(arch, fedora) and wsl(ubuntu).
+                + 2 años transformando ideas en soluciones digitales, desarrollador de software con un profundo entusiasmo por el mundo de la informática. Mi experiencia abarca el desarrollo web full-stack en React, Node.js, Spring Boot , creando aplicaciones web de alta calidad, diseño y rendimiento. Además, domino Flutter para el desarrollo mobile, permitiéndo me llevar tus ideas a la palma de la mano.
             </p>
         </motion.div>
     )

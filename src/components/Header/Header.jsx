@@ -14,7 +14,7 @@ export default function Header() {
                     Pleo2
                 </h1>
                 <h2 className='font-black text-2xl text-gray-100 font-display md:text-6xl'>
-                    Frontend Dev
+                    fullStack Dev
                 </h2>
             </div>
         </header>

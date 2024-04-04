@@ -16,10 +16,4 @@ export const projects = [
         'Focused on the design and user experience fast and pleasant, with the use of pure css in conjunction with the react library framer motion.',
         link: 'https://to-do-machine-ds6scmogi-pleo2.vercel.app/',
     },
-    {
-        name: 'LiuChamp.dev',
-        description:
-            'Website based in the Art Institute of chicago with the museum’s public data, allows users to find out about nearby events, tours and also has a small store with items related to the world of art and culture.',
-        link: 'https://liu-cham-web-site-pkcaj51zf-pleo2.vercel.app/',
-    },
 ]

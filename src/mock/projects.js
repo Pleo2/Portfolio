@@ -8,7 +8,7 @@ export const projects = [
     {
         name: 'poke-force-graph-typeScript.dev',
         description: 'Poke Force Graph is a web application that displays a strength graph of Pokémon from the first generation.', 
-        link: 'https://poke-force-graph-astro-react-type-script-n605f6ihe-pleo2.vercel.app/',
+        link: 'https://poke-force-graph-astro-react-type-script.vercel.app/',
     },
     {
         name: 'todo-Machine.dev',

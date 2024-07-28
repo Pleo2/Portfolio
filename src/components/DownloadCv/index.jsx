@@ -8,7 +8,7 @@ export default function DownloadCv() {
                 <Card>
                     <div className='w-full flex mt-1 justify-center items-center'>
                         <Link
-                            href='/JoseMoreno_DesarrolladorFullStack_js_Java_Flutter_nodeJS_React.pdf'
+                            href='/JoseMoreno-Full-Stack-Developer-Multiplatform.pdf'
                             target='_blank'
                             className='font-display text-xl text-zinc-200 px-2 hover:text-white duration-500 md:text-2xl'
                         >

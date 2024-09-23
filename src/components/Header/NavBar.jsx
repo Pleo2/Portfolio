@@ -7,8 +7,8 @@ export default function NavBar() {
 
     return (
         <div className=' m-auto w-full mt-8 h-auto py-1 flex justify-center gap-4 font-sans z-100'>
-            <Link href='/' style={{ color: pathname === '/' ? "IndianRed" : "gray"}} className='cursor-pointer'>Porfolio</Link>
-            <Link href='/blog' style={{ color: pathname === '/blog' ? "IndianRed" : "gray" }} className='cursor-pointer'>blog</Link>
+            <Link href='/' style={{ color: pathname === '/' ? "IndianRed" : "gray"}} className='cursor-pointer'>Portfolio</Link>
+            <Link href='/blog' style={{ color: pathname === '/blog' ? "IndianRed" : "gray" }} className='cursor-pointer'>Blog</Link>
         </div>
     )
 }

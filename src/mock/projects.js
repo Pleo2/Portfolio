@@ -1,6 +1,6 @@
 export const projects = [
     {
-        name: 'gyphy-clone-api-test',
+        name: 'hacer-tier-list',
         description:
         'It is a tier list maker, with a easy change of theme and excelent performanst, it is build with react-beautifuld-dnd and use vite like compailer',
         link: 'https://hacer-tier-list-vite.vercel.app/',
